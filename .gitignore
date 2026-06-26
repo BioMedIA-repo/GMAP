@@ -1,0 +1,30 @@
+# Local GPT workspace data
+.local-gpt/
+.runtime/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Training outputs
+checkpoints/
+predicatedimg/
+runs/
+logs/
+tensorboard/
+training_log.txt
+*.pth
+*.pt
+
+# Data
+data/
+data2D/
+*.npz
+
+# OS
+.DS_Store
+Thumbs.db
